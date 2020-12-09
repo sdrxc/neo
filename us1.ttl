@@ -1,0 +1,47 @@
+PREFIX music: <http://neo4j.com/voc/music#>
+PREFIX ind: <http://neo4j.com/indiv#>
+
+ind:Al_Gore music:name "Al Gore".
+ind:Obama music:name "Obama".
+ind:Michelle music:name "Michelle".
+ind:Kerry music:name "Kerry". 
+ind:Ivanka music:name "Ivanka". 
+ind:Melania music:name "Melania". 
+ind:Laura music:name "Laura". 
+ind:Hillary music:name "Hillary". 
+ind:Bush music:name "Bush". 
+ind:Bill music:name "Bill". 
+ind:McCain music:name "McCain". 
+ind:Cindy music:name "Cindy". 
+ind:G_Bush music:name " G.Bush". 
+ind:Trump music:name "Trump". 
+ind:Clinton music:name "Clinton".
+ind:T_Aitcheson music:name "T.Aitcheson". 
+ind:J_Thorn music:name "J. Thorn". 
+ind:Dole music:name "Dole".
+ind:Romney music:name "Romney". 
+
+
+
+
+ind:Clinton music:Related_to ind:Hillary.
+ind:Bush music:Related_to ind:Laura.
+ind:Obama music:Related_to ind:Michelle.
+ind:Trump music:Related_to ind:Ivanka.
+ind:Clinton music:Related_to ind:G_Bush.
+ind:Clinton music:Related_to ind:Dole.
+ind:Bush music:Related_to ind:Al_Gore.
+ind:Bush music:Related_to ind:Kerry.
+ind:Obama music:Related_to ind:McCain.
+ind:Obama music:Related_to ind:Romney.
+ind:Trump music:Related_to ind:Hillary.
+ind:Bill music:Related_to ind:Bush.
+ind:Bush music:Related_to ind:Obama.
+ind:Obama music:Related_to ind:Trump.
+ind:Hillary music:Related_to ind:Laura.
+ind:Laura music:Related_to ind:Michelle.
+ind:Michelle music:Related_to ind:Melania.
+ind:Hillary music:Related_to ind:Michelle.
+ind:Kerry music:Related_to ind:J_Thorn.
+ind:Al_Gore music:Related_to ind:T_Aitcheson.
+ind:McCain music:Related_to ind:Cindy.
