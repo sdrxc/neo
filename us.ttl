@@ -1,0 +1,47 @@
+PREFIX music httpneo4j.comvocmusic#
+PREFIX ind httpneo4j.comindiv#
+
+indAl_Gore musicname Al Gore.
+indObama musicname Obama.
+indMichelle musicname Michelle.
+indKerry musicname Kerry. 
+indIvanka musicname Ivanka. 
+indMelania musicname Melania. 
+indLaura musicname Laura. 
+indHillary musicname Hillary. 
+indBush musicname Bush. 
+indBill musicname Bill. 
+indMcCain musicname McCain. 
+indCindy musicname Cindy. 
+indG_Bush musicname  G.Bush. 
+indTrump musicname Trump. 
+indClinton musicname Clinton.
+indT_Aitcheson musicname T.Aitcheson. 
+indJ_Thorn musicname J. Thorn. 
+indDole musicname Dole.
+indRomney musicname Romney. 
+
+
+
+
+indClinton musicRelated_to indHillary.
+indBush musicRelated_to indLaura.
+indObama musicRelated_to indMichelle.
+indTrump musicRelated_to indIvanka.
+indClinton musicRelated_to indG_Bush.
+indClinton musicRelated_to indDole.
+indBush musicRelated_to indAl_Gore.
+indBush musicRelated_to indKerry.
+indObama musicRelated_to indMcCain.
+indObama musicRelated_to indRomney.
+indTrump musicRelated_to indHillary.
+indBill musicRelated_to indBush.
+indBush musicRelated_to indObama.
+indObama musicRelated_to indTrump.
+indHillary musicRelated_to indLaura.
+indLaura musicRelated_to indMichelle.
+indMichelle musicRelated_to indMelania.
+indHillary musicRelated_to indMichelle.
+indKerry musicRelated_to indJ_Thorn.
+indAl_Gore musicRelated_to indT_Aitcheson.
+indMcCain musicRelated_to indCindy.
